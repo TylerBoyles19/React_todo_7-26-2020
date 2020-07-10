@@ -13,7 +13,7 @@ export class ToDoRow extends Component{
         <tr>
             <td>{this.props.item.action}</td>
             <td>
-                <input type="checkbox" checked={this.props.item.done} onchange={() => this.props.callback(this.props.item)} />
+                <input type="checkbox" checked={this.props.item.done} onChange={() => this.props.callback(this.props.item)} />
             </td>
         </tr>
-}
+};
